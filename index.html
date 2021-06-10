@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home</title>
     <link href="coffee.css" rel="stylesheet">
+   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
-        crossorigin="anonymous" />
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
 </head>
 <body>
     <div class="home">
@@ -16,6 +17,15 @@
             <div class="navbar">
          <img src="imges/logo (2).png">
              
+
+         <div id="id1" class="toggle" onclick="menu1()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+    
+        </div>
+        <div id="id2">
+           <i class="far fa-times-circle" id="id3" onclick="cross()"></i>
          <ul>
     
             <li>
@@ -317,12 +327,14 @@
     </div>
 
         <div class="container1">
+
+
             <div class="team-wrap">
                     <div class="team1">
                         <img src="imges/face5.jpg">
                         <div class="bottomtext">
                             <h2> rubby marshal</h2>
-                            <h5>sales assistant</h5>
+                             <h5>sales assistant</h5>
                             <div class="social">
                                 <div class=" icon">
                                 <i class="fab fa-facebook-f"></i> 
@@ -479,8 +491,12 @@
                           </div>
                        
                     </div>
-                </footer>
+                </footer> 
+                <button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
             
+
+                <script src="btntop.js"></script>
+                <script src="javascript/style.js"></script>
 
 </body>
 </html>
