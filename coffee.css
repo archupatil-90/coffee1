@@ -18,7 +18,7 @@ margin-bottom: 50px;
         height: 50px;
         /* float: left; */
         position:absolute;
-        right: 5px;
+        right: 10px;
         top: 20px;
         display: none;
         
@@ -809,13 +809,13 @@ h5{
             width: 70px;
         }
         .navbar ul {
-            left: 120px;
+            left: 100px;
            
             box-sizing: border-box;
         }
         .navbar ul li {
            
-            max-width: 120px;
+            max-width: 110px;
       }
 
 
@@ -893,7 +893,7 @@ h5{
             color: white;
             font-size: 30px;
             position: absolute;
-            right: 15px;
+            right: 30px;
             top: 20px;
             display: none;
         }
